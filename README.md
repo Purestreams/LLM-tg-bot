@@ -6,6 +6,7 @@ This is a Telegram chat bot built using Python and the `python-telegram-bot` lib
 - allow replying message and message chain
 - create more roles
 
+
 ## Features
 
 - Responds to the `/start` command with a welcome message.
@@ -18,6 +19,32 @@ This is a Telegram chat bot built using Python and the `python-telegram-bot` lib
 - `python-telegram-bot`
 - `torch`
 - `transformers`
+
+
+Require at least 16GB of vram at default, test with Tesla P40.
+```sh
+Tue Aug 13 03:43:01 2024       
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 535.183.01             Driver Version: 535.183.01   CUDA Version: 12.2     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  Tesla P40                      On  | 00000000:01:00.0 Off |                  Off |
+| N/A   51C    P0              54W / 250W |  16104MiB / 24576MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|    0   N/A  N/A       797      G   /usr/lib/xorg/Xorg                            4MiB |
+|    0   N/A  N/A     12111      C   python3                                   16098MiB |
++---------------------------------------------------------------------------------------+
+```
 
 ## Installation
 
