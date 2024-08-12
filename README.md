@@ -12,6 +12,9 @@ This is a Telegram chat bot built using Python and the `python-telegram-bot` lib
 - Responds to the `/start` command with a welcome message.
 - Responds to the `/chat` command with generated text based on user input.
 - Uses a pre-trained text generation model to generate responses.
+- Utilizes the [DarkIdol-Llama-3.1-8B-Instruct-1.2-Uncensored](https://huggingface.co/aifeifei798/DarkIdol-Llama-3.1-8B-Instruct-1.2-Uncensored) model from Hugging Face for text generation.
+
+
 
 ## Requirements
 
