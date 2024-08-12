@@ -2,6 +2,10 @@
 
 This is a Telegram chat bot built using Python and the `python-telegram-bot` library. The bot uses a text generation model from the `transformers` library to generate responses.
 
+## To do list
+- allow replying message and message chain
+- create more roles
+
 ## Features
 
 - Responds to the `/start` command with a welcome message.
